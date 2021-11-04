@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"><p class="float-start"></p></div>  
+        <div class="col-sm-6 main"><p class="float-end">
+            <mat-form-field appearance="fill">
+                <mat-label>Choose your option : </mat-label>
+                <mat-select [(value)]="selected" (change)="dropdownChange($event)">
+                    <mat-option value="top_rated">Top Rated</mat-option>
+                    <mat-option value="popular">Popular</mat-option>
+                    <mat-option value="upcoming">Upcoming</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>  
+      </div>
+</div>
