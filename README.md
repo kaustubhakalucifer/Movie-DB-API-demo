@@ -13,7 +13,7 @@
     "IMAGE_BASE_URL" : ""
 }
 ```
-- Folder Structure
+### Folder Structure
 ![Screenshot 2021-11-05 at 2 21 21 PM](https://user-images.githubusercontent.com/38102372/140484059-0c6e33d5-409d-4875-915b-b9aff205a094.png)
 
 ### Screenshot
