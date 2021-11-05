@@ -1,3 +1,22 @@
 .main {
     margin-top: 40px;
 }
+
+.example-card {
+    max-width: 100%;
+    padding: 20px;
+}
+  
+.example-header-image {
+    background-size: cover;
+}
+
+.card-image {
+    background-size: cover;
+    width: 70%;
+}
+
+.divider {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

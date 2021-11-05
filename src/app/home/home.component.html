@@ -13,4 +13,29 @@
             </mat-form-field>
         </div>  
       </div>
+      <div class="row" class="mat-elevation-z8">
+          <mat-grid-list cols="4" rowHeight="1:1.5" align="center">
+            <mat-grid-tile *ngFor="let item of response_result.results" align="center">
+                <mat-card class="example-card" align="center">
+                    <mat-card-header align="center">
+                      <mat-card-title>{{item.title}}</mat-card-title>
+                      <mat-card-subtitle>Release Date : {{item.release_date}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <img mat-card-image src="http://image.tmdb.org/t/p/h632/{{item.poster_path}}" class="card-image" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                      <p>
+                          <b>Vote Count </b> : {{item.vote_count}}
+                      </p>
+                      <p>
+                          <b>Vote Average </b> : {{item.vote_average}}
+                      </p>
+                    </mat-card-content>
+                  </mat-card>
+            </mat-grid-tile>
+          </mat-grid-list>
+      </div>
+      <mat-divider class="divider"></mat-divider>
+      <div class="row">
+          <mat-paginator [length]="9277" [pageSize]="20"></mat-paginator>
+      </div>
 </div>
