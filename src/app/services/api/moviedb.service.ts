@@ -19,7 +19,6 @@ export class MoviedbService {
 
   private top_rated_route = "/movie/top_rated";
   top_rated(page_number : string) : Observable<any> {
-    console.log(`${this.BASE_URL}${this.top_rated_route}?api_key=${this.API_KEY}&language=en-US&page=${page_number}`);
     return this.http.get(`${this.BASE_URL}${this.top_rated_route}?api_key=${this.API_KEY}&language=en-US&page=${page_number}`);
   }
 }
