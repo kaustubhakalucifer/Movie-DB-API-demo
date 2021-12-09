@@ -10,11 +10,11 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~13.0.1",
+    "@angular/animations": "~13.1.0",
     "@angular/cdk": "^13.0.1",
     "@angular/common": "~13.0.1",
     "@angular/compiler": "~12.2.0",
-    "@angular/core": "~13.0.2",
+    "@angular/core": "~13.1.0",
     "@angular/forms": "~13.0.2",
     "@angular/material": "^13.0.2",
     "@angular/platform-browser": "~13.0.2",
